@@ -2,8 +2,11 @@
 	color: white;
 }
 
-.navBar{
+.nav{
 	position: fixed;
 	background-color: rgba(0,0,0,1);
-	height: 10%;
+}
+
+.ffRegular{
+font-family: 'Josefin Slab', serif;
 }
