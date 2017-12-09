@@ -10,3 +10,17 @@
 .ffRegular{
 font-family: 'Josefin Slab', serif;
 }
+.background-color
+{
+	background-color: black;
+}
+.overVid
+{
+	height: 30%;
+  position: absolute;
+  margin: auto;
+  display: block;
+  top: 35%;
+  left: 0;
+  right: 0;
+}
