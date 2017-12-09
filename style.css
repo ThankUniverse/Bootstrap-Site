@@ -1,7 +1,30 @@
-/*Color Reference*/
+/*Color Reference Fuzio-Website*/
 
-.white{
+.white
+{
 	color: white;
+}
+
+.gray
+{
+  color: #9C8D84;
+}
+
+.lightGreen
+{
+  color: #2C6924;
+}
+.darkGreen
+{
+  color: #2E4332;
+}
+.brown
+{
+  color: #361B18;
+}
+.beige
+{
+  color: #693F24;
 }
 /*===============*/
 
@@ -14,14 +37,22 @@ nav
 {
   background-color: black;
 }
-/*===============*/
-
-/*Font-Family*/
-
-.ffRegular{
-font-family: 'Josefin Slab', serif;
+.backgroundBeige
+{
+  background-color: #693F24;
 }
-/*===============*/
+/*Font Family*/
+
+.ffRegular
+{
+  font-family: 'Josefin Slab', serif;
+}
+.ffBold
+{
+  font-family: 'Josefin Slab', serif; 
+  
+}
+/*================*/
 
 .background-color
 {
@@ -36,3 +67,15 @@ font-family: 'Josefin Slab', serif;
   left: 0;
   right: 0;
 }
+
+/*Images Properties*/
+
+.imageCover
+{
+  background-size: cover;
+}
+.paddingTop
+{
+  margin-top: 20%;
+}
+
