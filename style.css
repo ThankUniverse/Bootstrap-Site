@@ -41,6 +41,10 @@ nav
 {
   background-color: #693F24;
 }
+.backgroundBrown
+{
+  background-color: #361B18;
+}
 /*Font Family*/
 
 .ffRegular
@@ -50,7 +54,7 @@ nav
 .ffBold
 {
   font-family: 'Josefin Slab', serif; 
-  
+
 }
 /*================*/
 
@@ -79,3 +83,15 @@ nav
   margin-top: 20%;
 }
 
+.marginTop5
+{
+  margin-top: 5%;
+}
+.marginTop10
+{
+  margin-top: 10%;
+}
+.marginBottom5
+{
+  margin-bottom: 5%;
+}
