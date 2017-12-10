@@ -101,6 +101,14 @@ nav
 {
   margin-top: 10%;
 }
+.marginTop25
+{
+  margin-top: 25%;
+}
+.marginTop100
+{
+  margin-top: 100%;
+}
 .marginBottom5
 {
   margin-bottom: 5%;
@@ -108,4 +116,9 @@ nav
 .resizing2020
 {
   margin: 15% 30% 1% 30%;
+}
+#singaporeCrop
+{
+  position: absolute;
+
 }
