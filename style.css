@@ -28,7 +28,7 @@
 }
 /*===============*/
 
-/*Background Color for Body & Nav*/
+/*Background Color & Images for all-pages*/
 nav
 {
 	background-color: rgba(0,0,0,0.5);
@@ -45,6 +45,18 @@ nav
 {
   background-color: #361B18;
 }
+.backgroundImgVeg
+{
+  background-image: url(images/vegetable.jpg);
+}
+.backgroundImgSpag
+{
+  background-image: url(images/spaghetti.jpg);
+}
+.backgroundImgFru
+{
+  background-image: url(images/redFruits.jpg);
+}
 /*Font Family*/
 
 .ffRegular
@@ -58,10 +70,7 @@ nav
 }
 /*================*/
 
-.background-color
-{
-	background-color: black;
-}
+/*Effects*/
 .overVid
 {
 	height: 20%;
@@ -71,8 +80,9 @@ nav
   left: 0;
   right: 0;
 }
+/*================*/
 
-/*Images Properties*/
+/*Images Properties, resizing etc,..*/
 
 .imageCover
 {
