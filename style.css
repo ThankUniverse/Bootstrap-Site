@@ -31,7 +31,7 @@
 /*Background Color & Images for all-pages*/
 nav
 {
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.8);
 }
 .backgroundBlack
 {
@@ -45,17 +45,33 @@ nav
 {
   background-color: #361B18;
 }
+.backgroundGray
+{
+  background-color: #9C8D84;
+}
 .backgroundImgVeg
 {
   background-image: url(images/vegetable.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .backgroundImgSpag
 {
   background-image: url(images/spaghetti.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.backgroundImgSpagCov
+{
+  background-image: url(images/spaghetti.jpg);
+  background-size: cover;
+  background-repeat: repeat;
 }
 .backgroundImgFru
 {
   background-image: url(images/redFruits.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 /*Font Family*/
 
@@ -97,6 +113,10 @@ nav
 {
   margin-top: 5%;
 }
+.marginTop5px
+{
+  margin-top: 5px;
+}
 .marginTop10
 {
   margin-top: 10%;
@@ -120,5 +140,21 @@ nav
 #singaporeCrop
 {
   position: absolute;
+}
 
+/*=====================*/
+
+.marginLeft5
+{
+  margin-left: 2%;
+  text-shadow: rgba(0, 0, 0, 1);
+}
+.marginLeft30
+{
+  margin-left: 30%;
+  text-shadow: rgba(0, 0, 0, 1);
+}
+.marginRight
+{
+  margin-right: 30%;
 }
