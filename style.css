@@ -52,13 +52,13 @@ nav
 .backgroundImgVeg
 {
   background-image: url(images/vegetable.jpg);
-  background-size: contain;
+  background-size: 100% 100%; 
   background-repeat: no-repeat;
 }
 .backgroundImgSpag
 {
   background-image: url(images/spaghetti.jpg);
-  background-size: contain;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 .backgroundImgSpagCov
@@ -70,7 +70,7 @@ nav
 .backgroundImgFru
 {
   background-image: url(images/redFruits.jpg);
-  background-size: contain;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 /*Font Family*/
@@ -107,6 +107,11 @@ nav
 .paddingTop
 {
   margin-top: 20%;
+}
+.paddingTop5px
+{
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .marginTop5
@@ -148,6 +153,10 @@ nav
 {
   margin-left: 2%;
   text-shadow: rgba(0, 0, 0, 1);
+}
+.marginLeft10
+{
+  margin-left: 10%;
 }
 .marginLeft30
 {
