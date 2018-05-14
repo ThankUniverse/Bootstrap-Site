@@ -45,25 +45,28 @@ nav
 {
   background-color: #361B18;
 }
-.backgroundGray
+.backgroundWhite
 {
-  background-color: #9C8D84;
+  background-color: white;
+}
+.backgroundGreen {
+  background-color: rgba(40, 167, 69, 1);
 }
 .backgroundImgVeg
 {
   background-image: url(images/vegetable.jpg);
-  background-size: 100% 100%; 
+  background-size: 100px 100px; 
   background-repeat: no-repeat;
 }
 .backgroundImgSpag
 {
   background-image: url(images/spaghetti.jpg);
-  background-size: 100% 100%;
+  background-size: 100px 100px;
   background-repeat: no-repeat;
 }
-.backgroundImgSpagCov
+.backgroundImgFruitsCov
 {
-  background-image: url(images/spaghetti.jpg);
+  background-image: url(images/redFruits.jpg);
   background-size: cover;
   background-repeat: repeat;
 }
@@ -73,6 +76,7 @@ nav
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+
 /*Font Family*/
 
 .ffRegular
@@ -166,4 +170,8 @@ nav
 .marginRight
 {
   margin-right: 30%;
+}
+
+.card-title {
+  margin-top: 3em;
 }
